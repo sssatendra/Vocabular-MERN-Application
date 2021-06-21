@@ -1,0 +1,89 @@
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #72147e;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 66px;
+  width: 100vw;
+  z-index: 100;
+}
+
+.menu__right {
+  display: flex;
+  justify-content: center;
+  margin: 0 18px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 18px;
+}
+
+.new__word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.MuiIconButton-label {
+  color: white;
+}
+
+.MuiIconButton-label p {
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+/* .MuiFormControl-root {
+  margin-top: 16px !important;
+} */
+
+#standard-basic {
+  font-family: "Kumbh Sans", sans-serif !important;
+}
+
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.buttons__inForm > button {
+  float: right;
+  margin: 35px 10px;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: blue;
+  outline: none;
+  background-color: whitesmoke;
+  font-family: "Kumbh Sans", sans-serif;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  h1 {
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .MuiIconButton-label p {
+    display: none;
+  }
+}
